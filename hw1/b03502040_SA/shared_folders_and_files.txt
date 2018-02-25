@@ -1,0 +1,17 @@
+1 # file: project_shared_folder
+2 # owner: student1
+3 # group: student
+4 user::rwx
+5 user:student1:rwx
+6 user:student2:rwx
+7 user:student3:rwx
+8 user:ta1:r-x
+9 user:ta2:r-x
+10 group:prof:r-x
+11 group::---
+12 mask::rwx
+13 other::---
+
+
+REFERENCE:
+1.How do directory permissions in Linux work? [http://unix.stackexchange.com/questions/21251/how-do-directory-permissions-in-linux-work]
