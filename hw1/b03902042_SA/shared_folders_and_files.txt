@@ -1,0 +1,13 @@
+# file: project_shared_folder
+# owner: student1
+# group: student
+user::rwx
+user:student1:rwx
+user:student2:rwx
+user:student3:rwx
+user:ta1:r-x
+user:ta2:r-x
+group:prof:r-x
+group::---
+mask::rwx
+other::---
