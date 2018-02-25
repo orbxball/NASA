@@ -1,0 +1,36 @@
+    1  clear
+    2  ls
+    3  lsblk
+    4  parted sdb
+    5  parted /dev/sdb
+    6  lsblk
+    7  mkfs -t ext4 /dev/sdb1
+    8  mount /dev/sdb1 /mnt/
+    9  ls
+   10  ls mnt/
+   11  ls /mnt/
+   12  mount /dev/sdb1 /mnt/
+   13  lsblk
+   14  umount /mnt 
+   15  ls /mnt/
+   16  mount /dev/sdb1 /mnt/
+   17  ls /mnt/
+   18  lsblk
+   19  umount /mnt 
+   20  dd if=/dev/zero of=/dev/sdb bs=1 count=512
+   21  pvcreate /dev/sdb /dev/sdc
+   22  pvscan 
+   23  vgcreate gu /dev/sdb /dev/sdc
+   24  vgscan 
+   25  ls /dev/mapper/
+   26  lvcreate -n lv1 -L 10G gu
+   27  lvscan 
+   28  mkfs -t ext4 /dev/gu/
+   29  mkfs -t ext4 /dev/gu/lv1
+   30  mount /dev/gu/lv1 /mnt
+   31  ls /mnt/
+   32  umount /mnt 
+   33  ls /m
+   34  ls /mnt/
+   35  history
+   36  history > out
