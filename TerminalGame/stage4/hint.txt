@@ -1,0 +1,23 @@
+write an shell script "biggerNum.sh" to help Amy compare the numbers in files.
+
+input format:
+    ./biggerNum.sh [FILE_NAME_1] [FILE_NAME_2] [LINE_NUMBER]
+
+FILE_NAME_1, FILE_NAME_2 are two file names, each file contains multiple integers in it, one of a line.
+
+output format:
+    compare the numbers in LINE_NUMBERth line of each file, print the bigger one.
+
+example:
+    fileA   fileB
+--------------------
+    1       2
+    3       4
+    5       4
+    7       6
+
+if user run "./biggerNum.sh fileA fileB 3", you should print "5".
+
+When you finished, just run "./amy" and she will give you the flag.
+
+*please make sure the file permission is properly set.

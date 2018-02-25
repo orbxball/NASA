@@ -1,0 +1,2 @@
+This is the first stage.
+the flag is in flag.txt

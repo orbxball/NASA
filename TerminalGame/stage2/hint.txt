@@ -1,0 +1,2 @@
+This is stage2.
+You can get the flag from Elise after helping her.
