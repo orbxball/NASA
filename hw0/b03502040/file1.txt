@@ -1,0 +1,16 @@
+apple banana cat
+banana cat apple
+cat apple banana
+apple
+Apple
+aPPle
+cook
+Cook
+cOok
+coOk
+cooK
+Bar
+bar
+bAr
+baR
+bAR
