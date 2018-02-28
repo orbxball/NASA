@@ -1,0 +1,28 @@
+    1  exit
+    2  apt-get install mininet
+    3  mn
+    4  pip install ryu
+    5  apt-get install python pip
+    6  apt-get install python-pip
+    7  pip install ryu
+    8  ryu-manager 
+    9  pip install repoze.lru
+   10  ryu-manager 
+   11  pip install debtcollector
+   12  ryu
+   13  ryu-manager 
+   14  pip install stevedore
+   15  ryu-manager 
+   16  pip install greenlet
+   17  apt-get install python-dev
+   18  pip install greenlet
+   19  ryu-manager 
+   20  find .
+   21  find /
+   22  exit
+   23  sudo -s
+   24  ryu-manager 
+   25  exit
+   26  history
+   27  cd Desktop/
+   28  history > output
